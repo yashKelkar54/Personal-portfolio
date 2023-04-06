@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Yash Kelkar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0405eb070f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">〈/Port.<span>folio</span>〉</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, my name is</p>
+                <h1>Yash<br><span>Kelkar</span></h1>
+                <p>Web developer, UI/UX designer, and builder of things for the web.</p>
+            </div>
+        </div>
+    </div>
+<!-- -------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/aboutme5.jpg" alt="Yash Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">〈/About.Me〉</h1>
+                    <p>I'am a Front end web developer and UI/UX designer Who is passionate about design & development, creative in my approach to problem solving, continuously seeking mutually beneficial opportunities, and constantly exploring new challenges to expand my capabilities both professionally and personally.</p>
+                    <p>Proactive and excited to partner with like-minded individuals to achieve my goals.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Video Editing</span><br> Editing videos and Logo designing</li>    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June2021 - Feb2023</span><br>Front-end developer at Infosys.Ltd</li>
+                            <li><span>Dec2020 - June2021</span><br>Operations Executive at Global maritime agency Private Limited</li>
+                            <li><span>Before Dec2020</span><br> Freelancing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>May2023 - Current </span><br>Software and database development from Loyalist college Toronto</li>
+                            <li><span>Nov2020</span><br>BSC Computer Science from SIES Navi Mumbai</li>
+                            <li><span>2018</span><br>HSC from UES Uran</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">〈/Services〉</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, quia dolore minus ut architecto fugit facilis adipisci doloremque aliquam suscipit aut magnam aspernatur? Voluptate quod delectus ab consectetur accusantium quam.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Designing</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, quia dolore minus ut architecto fugit facilis adipisci doloremque aliquam suscipit aut magnam aspernatur? Voluptate quod delectus ab consectetur accusantium quam.</p>
+                    <a href="https://www.behance.net/yashkelkar">Learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, quia dolore minus ut architecto fugit facilis adipisci doloremque aliquam suscipit aut magnam aspernatur? Voluptate quod delectus ab consectetur accusantium quam.</p>
+                    <a href="#">Learn more</a>
+                </div>     
+            </div> 
+        </div>
+    </div>
+    <!-- --------my work------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">〈/Featured.Work〉</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/webd.jpg" alt="work1">
+                    <div class="layer">
+                        <h3>Personal Portfolio website</h3>
+                        <p>I have Developed "My personal portfolio website" using HTML, CSS and Javascript and Hosted it via Github. This Website Contains all the information regarding my technical skills and I keep updating it and adding new skills as I gain more Knowledge.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/UI2.jpg" alt="work1">
+                    <div class="layer">
+                        <h3>UI/UX Ecom app Design</h3>
+                        <p>TI have Designed LOFI and HIFI designs of an E-commerce Headphones application using Figma tool. I have added colours, animations and effects etc to the best of my knowledge and will keep on improving the design as a part of learning.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/V1.jpg" alt="work1">
+                    <div class="layer">
+                        <h3>Video Editing</h3>
+                        <p>I edit Videos as Freelancing</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- --------contact------- -->
+    <div id="contact">
+        <div class="contaiiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">〈/Get.in.touch〉</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>yashkelkar54@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>00000-00000</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yash-kelkar-8849571ba/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://github.com/yashKelkar54?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.behance.net/yashkelkar"><i class="fa-brands fa-square-behance"></i></i></a>
+                        <a href="https://www.instagram.com/?next=%2F"><i class="fa-brands fa-instagram"></i></i></a>
+                    </div>
+                    <a href="Images/Yash's Resume.pdf" download class="btn btn2">Dounload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©. Made with <i class="fa-solid fa-heart"></i> by CodewithYash</p>
+        </div>
+    </div>
+    <!-- --------functions------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxzM_FBpEKdfTLvznZExI2DoPHO0tb61r2Vzqz1ZsXvnpfknYg5Uh7tJ8_p_XqwTSAT/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Messege sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
